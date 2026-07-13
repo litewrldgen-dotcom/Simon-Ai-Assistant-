@@ -1,7 +1,4 @@
 streamlit
 groq
-gspread
-google-auth
 requests
-pytz
 geocoder
