@@ -1,0 +1,3 @@
+import streamlit as st
+def load_css():
+    st.markdown('<style>@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;900&display=swap");*{font-family:"DM Sans"}.stApp{background:#09090b;color:#fff}.topbar{position:fixed;top:0;left:0;right:0;height:75px;background:rgba(9,9,11,0.85);backdrop-filter:blur(20px);border-bottom:1px solid #00ff88;display:flex;align-items:center;padding:0 20px;z-index:999}.logo{width:45px;height:45px;border-radius:14px;background:linear-gradient(135deg,#00ff88,#00d97e);margin-right:14px}.title{font-size:20px;font-weight:900}.badge{background:#00ff88;color:#000;padding:3px 8px;border-radius:6px;font-size:11px;margin-left:8px} [data-testid="stSidebar"]{background:#111827}</style>', unsafe_allow_html=True)
