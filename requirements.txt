@@ -1,6 +1,4 @@
 streamlit
-groq
-PyPDF2
-pillow
 requests
-gTTS
+pillow
+python-dotenv
